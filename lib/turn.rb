@@ -23,7 +23,6 @@ def valid_move?(board, index)
 end
 
 def input_to_index(user_input)
-  user_input = gets
   return user_input.to_i
 end
 
